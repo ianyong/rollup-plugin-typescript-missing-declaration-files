@@ -1,1 +1,2 @@
-export { MyNumber, MyString } from './types';
+export { MyNumber } from './type-only';
+export { MyString, x } from './not-type-only';
