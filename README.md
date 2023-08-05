@@ -1,6 +1,6 @@
 # `@rollup/plugin-typescript` missing declaration file reproduction
 
-Repository to reproduce [this issue]() in `@rollup/plugin-typescript`.
+Repository to reproduce [this issue](https://github.com/rollup/plugins/issues/1554) in `@rollup/plugin-typescript`.
 
 ## Context
 
