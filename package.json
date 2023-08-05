@@ -1,0 +1,20 @@
+{
+  "name": "rollup-plugin-typescript-missing-declaration-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build-rollup": "npm run clean && rollup -c",
+    "build-tsc": "npm run clean && tsc",
+    "clean": "rm -rf dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.2",
+    "rollup": "^3.27.2",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6"
+  }
+}
